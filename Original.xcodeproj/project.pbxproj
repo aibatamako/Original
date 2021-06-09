@@ -17,10 +17,10 @@
 		2B0DB3342659F84F00EE476C /* __________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DB3332659F84F00EE476C /* __________UITests.swift */; };
 		2B81A52F2663681C001A0E96 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81A52E2663681C001A0E96 /* FoodTableViewCell.swift */; };
 		2B81A5312663682D001A0E96 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81A5302663682D001A0E96 /* RecipeTableViewCell.swift */; };
-		2B81A5332668F7F7001A0E96 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B81A5322668F7F7001A0E96 /* icon.png */; };
 		2B81A536266B3057001A0E96 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 2B81A535266B3057001A0E96 /* Realm */; };
 		2B81A538266B3057001A0E96 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2B81A537266B3057001A0E96 /* RealmSwift */; };
 		2B81A53A266B30FC001A0E96 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81A539266B30FC001A0E96 /* Count.swift */; };
+		2B88A2A0267101A8009FEA05 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B88A29F267101A8009FEA05 /* icon.png */; };
 		2BB7C9312661B7BF00D67ACD /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7C9302661B7BF00D67ACD /* FoodViewController.swift */; };
 		2BB7C9332661B82300D67ACD /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7C9322661B82300D67ACD /* FoodListViewController.swift */; };
 		2BB7C9352661B83900D67ACD /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB7C9342661B83900D67ACD /* RecipeListViewController.swift */; };
@@ -61,8 +61,8 @@
 		2B0DB3352659F84F00EE476C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B81A52E2663681C001A0E96 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		2B81A5302663682D001A0E96 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
-		2B81A5322668F7F7001A0E96 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2B81A539266B30FC001A0E96 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
+		2B88A29F267101A8009FEA05 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		2BB7C9302661B7BF00D67ACD /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		2BB7C9322661B82300D67ACD /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
 		2BB7C9342661B83900D67ACD /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		2B0DB3102659F84800EE476C /* Original */ = {
 			isa = PBXGroup;
 			children = (
-				2B81A5322668F7F7001A0E96 /* icon.png */,
+				2B88A29F267101A8009FEA05 /* icon.png */,
 				2B0DB3112659F84800EE476C /* AppDelegate.swift */,
 				2B0DB3132659F84800EE476C /* SceneDelegate.swift */,
 				2B0DB3152659F84800EE476C /* ViewController.swift */,
@@ -266,7 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B81A5332668F7F7001A0E96 /* icon.png in Resources */,
+				2B88A2A0267101A8009FEA05 /* icon.png in Resources */,
 				2B0DB31E2659F84E00EE476C /* LaunchScreen.storyboard in Resources */,
 				2B0DB31B2659F84E00EE476C /* Assets.xcassets in Resources */,
 				2B0DB3192659F84800EE476C /* Main.storyboard in Resources */,
@@ -480,7 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = WZJQHN55MW;
 				INFOPLIST_FILE = Original/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,7 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = WZJQHN55MW;
 				INFOPLIST_FILE = Original/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
